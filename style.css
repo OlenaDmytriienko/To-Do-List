@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "A.Casual.Handwritten.Pen Font";
+    src: local("A.Casual.Handwritten.Pen Font"),
+     url(./A.Casual.Handwritten.Pen.Noncommercial.ttf) format("truetype");
+  }
+body{
+    font-family: "A.Casual.Handwritten.Pen Font" ;
+    background-image: url(./list.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.wrapper{
+    margin-top: 65px;
+    margin-left: 70px;
+}
+img{
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    top: 7%;
+    right: 10%;
+}
+h2{
+font-size: 50px;
+margin-bottom: 30px;
+}
+h3{
+font-size: 35px;
+}
+input{
+    background-color: transparent;
+    border-radius: 6px;
+    padding: 5px;
+}
+button{
+    cursor: pointer;
+    border-radius: 6px;
+    padding: 5px;
+}
+.row{
+    display: flex;
+    gap: 5px;
+}
+.checked{
+    text-decoration: line-through;
+    color: red;
+}
+.box{
+font-size: 30px;
+padding-bottom: 10px;
+}
+
+@media (max-width: 500px) {
+ img{
+    position: relative;
+    width: 100px;
+    height: 100px;
+ }
+  }
