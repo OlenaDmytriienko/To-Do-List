@@ -57,4 +57,10 @@ padding-bottom: 10px;
     width: 100px;
     height: 100px;
  }
+ h3{
+    font-size: 25px;
+ }
+ .box{
+    font-size: 20px;
+ }
   }
